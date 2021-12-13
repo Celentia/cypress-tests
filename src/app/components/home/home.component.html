@@ -1,0 +1,9 @@
+<div>
+  <h1>Home</h1>
+  <button (click)="openModal('custom-modal-1')" data-automation-id="home-button">
+    Open Modal 1
+  </button>
+</div>
+
+<app-modal id="custom-modal-1" [bodyText]="'Here is some info you should know'">
+</app-modal>
